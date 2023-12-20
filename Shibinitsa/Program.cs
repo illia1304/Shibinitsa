@@ -35,6 +35,10 @@ namespace Hangman
                         symbols[i] = guess;
                         guessCount++;
                     }
+                    else
+                    {
+                        mistakeCount++;
+                    }
                 }
                 if (guessCount == word.Length)
                 {
